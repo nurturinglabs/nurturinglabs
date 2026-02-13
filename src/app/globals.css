@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+  --color-accent: #00FFD1;
+  --color-accent2: #A78BFA;
+  --color-warm: #FF6B4A;
+  --color-bg: #060608;
+  --color-card-bg: #0E0F14;
+  --color-border: #1A1D2A;
+  --color-text: #F0F0F2;
+  --color-muted: #6B7084;
+
+  /* Fonts — reference CSS vars set by next/font */
+  --font-sans: var(--nf-space-grotesk);
+  --font-body: var(--nf-inter);
+  --font-mono: var(--nf-ibm-plex-mono);
+
+  /* Animations */
+  --animate-wave: wave 1.4s ease-in-out infinite;
+  --animate-text-cycle: textCycle 4s ease-in-out;
+  --animate-msg-in: msgIn 4s ease-in-out;
+  --animate-ripple: ripple 2s ease-out infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+::selection {
+  background: #00FFD133;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.35); }
+  50% { transform: scaleY(1); }
+}
+
+@keyframes textCycle {
+  0% { opacity: 0; transform: translateY(14px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-14px); }
+}
+
+@keyframes msgIn {
+  0% { opacity: 0; transform: translateY(8px); }
+  15% { opacity: 1; transform: translateY(0); }
+  85% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  100% { transform: scale(2.8); opacity: 0; }
+}
+
+.demo-btn {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.demo-btn:hover {
+  background: #00FFD1 !important;
+  color: #060608 !important;
+  box-shadow: 0 0 50px #00FFD133;
+  transform: translateY(-2px);
+}
+
+.demo-card {
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.demo-card:hover {
+  border-color: #00FFD133 !important;
+  box-shadow: 0 0 60px #00FFD10A, 0 8px 32px rgba(0,0,0,0.3);
+  transform: translateY(-4px);
 }

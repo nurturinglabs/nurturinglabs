@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Legacy pre-conversion file
+    "nurturinglabs-v3.jsx",
   ]),
 ]);
 
