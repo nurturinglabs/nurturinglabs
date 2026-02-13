@@ -131,7 +131,7 @@ export default function Hero({ activeV }: { activeV: number }) {
       {/* CTA */}
       <div className="flex items-center gap-4">
         <a
-          href="https://calendly.com"
+          href="https://calendly.com/nurturinglabs/30min"
           target="_blank"
           rel="noopener"
           className="demo-btn inline-flex items-center gap-2 text-accent bg-transparent"
