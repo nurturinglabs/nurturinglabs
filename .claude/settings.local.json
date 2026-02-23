@@ -11,7 +11,10 @@
       "Bash(lsof:*)",
       "Bash(xargs kill:*)",
       "Bash(curl:*)",
-      "Bash(npm run lint:*)"
+      "Bash(npm run lint:*)",
+      "Bash(gh repo list:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

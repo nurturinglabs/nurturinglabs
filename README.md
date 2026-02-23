@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nurturinglabs
+
+AI-powered voice solutions for local businesses — never miss a call, a customer, or a dollar.
+
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Fonts:** Space Grotesk · Inter · IBM Plex Mono
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── globals.css      # Tailwind theme, animations, keyframes
+│   ├── layout.tsx       # Root layout, fonts, SEO metadata
+│   └── page.tsx         # Landing page
+├── components/
+│   ├── Nav.tsx          # Navigation bar
+│   ├── Hero.tsx         # Headline, CTA, stats
+│   ├── DemoCard.tsx     # Live demo card with chat bubbles
+│   ├── Waveform.tsx     # Animated waveform visualization
+│   ├── StatusCycler.tsx # AI status indicator
+│   ├── StatBlock.tsx    # Stat display (24/7, <1s, 5x)
+│   └── Footer.tsx       # Footer
+└── lib/
+    └── data.ts          # Verticals, statuses, tags
+```
 
-## Learn More
+## ElevenLabs Voice AI Projects
 
-To learn more about Next.js, take a look at the following resources:
+Production-grade voice agents built on the ElevenLabs Conversational AI platform:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Project | Domain | What it does | Live Demo |
+|---------|--------|-------------|-----------|
+| [Domino's Voice Agent](https://github.com/nurturinglabs/elevenlabsagent-dominos) | Food & Delivery | Voice-powered pizza ordering with real-time cart, menu browsing, and conversational checkout | [elevenlabsagent-dominos.vercel.app](https://elevenlabsagent-dominos.vercel.app) |
+| [Airtel AI Support](https://github.com/nurturinglabs/elevenlabsagent-airtel) | Telecom | Customer support agent handling balance checks, recharges, network diagnostics, and support tickets | [elevenlabsagent-airtel.vercel.app](https://elevenlabsagent-airtel.vercel.app) |
+| [Ringaa](https://github.com/nurturinglabs/elevenlabsagent-ringaa) | Education | School admissions voice assistant for seat availability, campus visit booking, and lead capture | [elevenlabsagent-ringaa.vercel.app](https://elevenlabsagent-ringaa.vercel.app) |
+| [Meddo](https://github.com/nurturinglabs/elevenlabsagent-meddo) | Healthcare | Clinical voice assistant for SOAP notes, patient summaries, pattern detection, and scheduling | [elevenlabsagent-meddo.vercel.app](https://elevenlabsagent-meddo.vercel.app) |
+| [Ordra](https://github.com/nurturinglabs/elevenlabsagent-ordra) | Ordering | Voice-first ordering agent | [elevenlabsagent-ordra.vercel.app](https://elevenlabsagent-ordra.vercel.app) |
+| [FDE Showcase](https://github.com/nurturinglabs/elevenlabsagent-fde) | Portfolio | Showcase site presenting all four voice AI demos across telecom, food, education, and healthcare | [elevenlabsagent-fde.vercel.app](https://elevenlabsagent-fde.vercel.app) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All projects built with Next.js, TypeScript, Tailwind CSS, and ElevenLabs Conversational AI SDK.
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy to Vercel by connecting the GitHub repo — no additional configuration needed.
