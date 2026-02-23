@@ -1,62 +1,69 @@
-# Nurturinglabs
+# Hey, I'm Umesh 👋
 
-AI-powered voice solutions for local businesses — never miss a call, a customer, or a dollar.
+**Building voice AI that works in the real world — in Hindi, English, and Hinglish.**
 
-## Tech Stack
+I'm a Data Engineer at Capital One by day, and a voice AI builder by night. I believe voice is the most natural interface humans have — and most of the world still can't use technology because it demands screens, keyboards, and English.
 
-- **Framework:** Next.js 16 (App Router)
-- **Styling:** Tailwind CSS v4
-- **Fonts:** Space Grotesk · Inter · IBM Plex Mono
-- **Deployment:** Vercel
+I'm using [ElevenLabs](https://elevenlabs.io) to change that.
 
-## Getting Started
+---
 
-```bash
-npm install
-npm run dev
-```
+## 🎙️ Voice AI Demos
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Four production-ready voice AI applications — each solving a real problem in India's multilingual market:
 
-## Project Structure
+### [Ringaa — AI Admission Assistant](https://github.com/nurturinglabs/ringaa)
+> *"Admission season = hundreds of parents calling the same school every day."*
 
-```
-src/
-├── app/
-│   ├── globals.css      # Tailwind theme, animations, keyframes
-│   ├── layout.tsx       # Root layout, fonts, SEO metadata
-│   └── page.tsx         # Landing page
-├── components/
-│   ├── Nav.tsx          # Navigation bar
-│   ├── Hero.tsx         # Headline, CTA, stats
-│   ├── DemoCard.tsx     # Live demo card with chat bubbles
-│   ├── Waveform.tsx     # Animated waveform visualization
-│   ├── StatusCycler.tsx # AI status indicator
-│   ├── StatBlock.tsx    # Stat display (24/7, <1s, 5x)
-│   └── Footer.tsx       # Footer
-└── lib/
-    └── data.ts          # Verticals, statuses, tags
-```
+Voice AI that answers parent queries 24/7 in Hindi, English, or Hinglish. Checks seat availability, books campus visits, starts applications — all over a phone call. **Demoed to Orchids International School, Bangalore** — admin team requested expansion to daily operations.
 
-## ElevenLabs Voice AI Projects
+🔧 ElevenLabs · Next.js · Vercel · chrono-node
 
-Production-grade voice agents built on the ElevenLabs Conversational AI platform:
+### [Domino's India — Voice Ordering Demo](https://github.com/nurturinglabs/dominos)
+> *"What if you could order a Cheese Burst Farmhouse in Hinglish — no app, no menu scrolling, just talk?"*
 
-| Project | Domain | What it does | Live Demo |
-|---------|--------|-------------|-----------|
-| [Domino's Voice Agent](https://github.com/nurturinglabs/elevenlabsagent-dominos) | Food & Delivery | Voice-powered pizza ordering with real-time cart, menu browsing, and conversational checkout | [elevenlabsagent-dominos.vercel.app](https://elevenlabsagent-dominos.vercel.app) |
-| [Airtel AI Support](https://github.com/nurturinglabs/elevenlabsagent-airtel) | Telecom | Customer support agent handling balance checks, recharges, network diagnostics, and support tickets | [elevenlabsagent-airtel.vercel.app](https://elevenlabsagent-airtel.vercel.app) |
-| [Ringaa](https://github.com/nurturinglabs/elevenlabsagent-ringaa) | Education | School admissions voice assistant for seat availability, campus visit booking, and lead capture | [elevenlabsagent-ringaa.vercel.app](https://elevenlabsagent-ringaa.vercel.app) |
-| [Meddo](https://github.com/nurturinglabs/elevenlabsagent-meddo) | Healthcare | Clinical voice assistant for SOAP notes, patient summaries, pattern detection, and scheduling | [elevenlabsagent-meddo.vercel.app](https://elevenlabsagent-meddo.vercel.app) |
-| [Ordra](https://github.com/nurturinglabs/elevenlabsagent-ordra) | Ordering | Voice-first ordering agent | [elevenlabsagent-ordra.vercel.app](https://elevenlabsagent-ordra.vercel.app) |
-| [FDE Showcase](https://github.com/nurturinglabs/elevenlabsagent-fde) | Portfolio | Showcase site presenting all four voice AI demos across telecom, food, education, and healthcare | [elevenlabsagent-fde.vercel.app](https://elevenlabsagent-fde.vercel.app) |
+Demo showcasing how a major QSR brand could automate phone ordering with voice AI. Real menu, real pricing, full pizza customization. 4 server tools + 4 client tools with live cart updates.
 
-All projects built with Next.js, TypeScript, Tailwind CSS, and ElevenLabs Conversational AI SDK.
+🔧 ElevenLabs · Next.js · Vercel
 
-## Deployment
+### [Meddo — Clinical Documentation Superpower](https://github.com/nurturinglabs/meddo)
+> *"Doctors spend 2 hours a day typing notes. What if they just talked?"*
 
-```bash
-npm run build
-```
+Voice AI that gives doctors a clinical memory — converts doctor-patient conversations into structured medical records. No more typing, no more missed details.
 
-Deploy to Vercel by connecting the GitHub repo — no additional configuration needed.
+🔧 ElevenLabs
+
+### [Airtel — Telecom Service Request Demo](https://github.com/nurturinglabs/airtel)
+> *"350M+ subscribers. 22 languages. Thousands of daily calls. One voice AI agent."*
+
+Demo showcasing how India's largest telecom operator could automate customer service. Handles billing, plan changes, and support in Hindi, English, and Hinglish — designed to scale across all Indian languages.
+
+🔧 ElevenLabs
+
+---
+
+## 🛠️ Tech Stack
+
+**Voice AI:** ElevenLabs, Conversational AI, WebSockets, Server/Client Tools
+**Frontend:** Next.js, React, TypeScript, Tailwind CSS, Vercel
+**Data Engineering:** Python, PySpark, SQL, Snowflake, AWS (S3, EMR, Glue, Athena, Redshift), Databricks
+**Other:** Docker, R Shiny, Streamlit, Tableau
+
+---
+
+## 💡 Why Voice?
+
+A parent in rural Karnataka who can't type in English can call a school and get admission info in Kannada at 2am.
+A customer in Bihar can resolve their Airtel bill in Bhojpuri without pressing 1 for English.
+A doctor can stop typing and just talk to their patient.
+
+**Voice doesn't need literacy. Voice doesn't need a smartphone. Voice just needs a phone call.**
+
+That's what I'm building toward.
+
+---
+
+## 📫 Get in Touch
+
+- **LinkedIn:** [linkedin.com/in/umeshjn](https://linkedin.com/in/umeshjn)
+- **Email:** u.jnms08@gmail.com
