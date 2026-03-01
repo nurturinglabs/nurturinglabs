@@ -2,7 +2,7 @@
 
 **Building voice AI that works in the real world — in Hindi, English, and Hinglish.**
 
-I'm a Data Engineer at Capital One by day, and a voice AI builder by night. I believe voice is the most natural interface humans have — and most of the world still can't use technology because it demands screens, keyboards, and English.
+I'm a Data Engineer and a voice AI builder. I believe voice is the most natural interface humans have — and most of the world still can't use technology because it demands screens, keyboards, and English.
 
 I'm using [ElevenLabs](https://elevenlabs.io) to change that.
 
