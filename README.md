@@ -1,6 +1,6 @@
 # Hey, I'm Umesh 👋
 
-**Building voice AI that works in the real world — in Hindi, English, and Hinglish.**
+**Building voice AI that works in the real world .**
 
 I'm a Data Engineer and a voice AI builder. I believe voice is the most natural interface humans have — and most of the world still can't use technology because it demands screens, keyboards, and English.
 
