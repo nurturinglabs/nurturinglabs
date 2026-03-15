@@ -45,8 +45,11 @@ Demo showcasing how India's largest telecom operator could automate customer ser
 ## 🛠️ Tech Stack
 
 **Voice AI:** ElevenLabs, Conversational AI, WebSockets, Server/Client Tools
+
 **Frontend:** Next.js, React, TypeScript, Tailwind CSS, Vercel
+
 **Data Engineering:** Python, PySpark, SQL, Snowflake, AWS (S3, EMR, Glue, Athena, Redshift), Databricks
+
 **Other:** Docker, R Shiny, Streamlit, Tableau
 
 ---
