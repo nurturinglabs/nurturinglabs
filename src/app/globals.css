@@ -59,14 +59,8 @@
 
 .demo-btn {
   text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.demo-btn:hover {
-  background: #00FFD1 !important;
-  color: #060608 !important;
-  box-shadow: 0 0 50px #00FFD133;
-  transform: translateY(-2px);
+  pointer-events: none;
+  opacity: 0.5;
 }
 
 .demo-card {

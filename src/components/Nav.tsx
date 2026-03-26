@@ -47,19 +47,19 @@ export default function Nav({ loaded }: { loaded: boolean }) {
       </div>
 
       {/* Contact */}
-      <a
-        href="mailto:hello@nurturinglabs.com"
-        className="text-muted no-underline transition-colors duration-200 hover:text-accent"
+      <span
+        className="text-muted cursor-default"
         style={{
           fontSize: 12,
           fontWeight: 400,
           letterSpacing: "1px",
           borderBottom: "1px solid #1A1D2A",
           paddingBottom: 2,
+          opacity: 0.4,
         }}
       >
         GET IN TOUCH
-      </a>
+      </span>
     </nav>
   );
 }

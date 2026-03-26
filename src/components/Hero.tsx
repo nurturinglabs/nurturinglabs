@@ -130,11 +130,8 @@ export default function Hero({ activeV }: { activeV: number }) {
 
       {/* CTA */}
       <div className="flex items-center gap-4">
-        <a
-          href="https://calendly.com/nurturinglabs/30min"
-          target="_blank"
-          rel="noopener"
-          className="demo-btn inline-flex items-center gap-2 text-accent bg-transparent"
+        <span
+          className="demo-btn inline-flex items-center gap-2 text-accent bg-transparent cursor-default"
           style={{
             border: "1.5px solid #00FFD1",
             padding: "clamp(12px, 1.4vh, 16px) clamp(22px, 2.5vw, 32px)",
@@ -158,7 +155,7 @@ export default function Hero({ activeV }: { activeV: number }) {
             <line x1="7" y1="17" x2="17" y2="7" />
             <polyline points="7 7 17 7 17 17" />
           </svg>
-        </a>
+        </span>
         <span className="font-body" style={{ fontSize: 13, color: "#6B708488", fontWeight: 300 }}>
           Free 2-week pilot
         </span>
