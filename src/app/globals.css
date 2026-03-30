@@ -11,14 +11,14 @@
   --color-text: #F0F0F2;
   --color-muted: #6B7084;
 
-  /* Fonts — reference CSS vars set by next/font */
+  /* Fonts */
   --font-sans: var(--nf-space-grotesk);
-  --font-body: var(--nf-inter);
+  --font-body: var(--nf-dm-sans);
   --font-mono: var(--nf-ibm-plex-mono);
 
   /* Animations */
   --animate-wave: wave 1.4s ease-in-out infinite;
-  --animate-text-cycle: textCycle 4s ease-in-out;
+  --animate-text-cycle: textCycle 2s ease-in-out;
   --animate-msg-in: msgIn 4s ease-in-out;
   --animate-ripple: ripple 2s ease-out infinite;
 }
@@ -27,6 +27,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #F0F0F2;
+  background: #060608;
 }
 
 ::selection {
@@ -57,10 +66,47 @@
   100% { transform: scale(2.8); opacity: 0; }
 }
 
-.demo-btn {
-  text-decoration: none;
-  pointer-events: none;
-  opacity: 0.5;
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 4px #00FFD144, 0 0 8px #00FFD122; opacity: 0.6; }
+  50% { box-shadow: 0 0 10px #00FFD1, 0 0 24px #00FFD188, 0 0 40px #00FFD144; opacity: 1; }
+}
+
+.animate-glow-dot {
+  animation: glow-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes ring {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-12deg); }
+  30% { transform: rotate(10deg); }
+  40% { transform: rotate(-8deg); }
+  50% { transform: rotate(5deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-ring {
+  animation: ring 1.5s ease-in-out infinite;
+  transform-origin: center center;
 }
 
 .demo-card {

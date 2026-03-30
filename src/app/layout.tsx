@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, DM_Sans, IBM_Plex_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -10,7 +9,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const dmSans = DM_Sans({
-  variable: "--nf-inter",
+  variable: "--nf-dm-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
 });
@@ -23,16 +22,15 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nurturinglabs.com"),
-  title: "Nurturinglabs \u2014 AI Superpower for Local Businesses",
+  title: "Nurturinglabs — AI Superpower for Local Businesses",
   description:
-    "An AI brain that understands, speaks, and acts. Never miss a call, a customer, or a dollar. 24/7 AI solutions for dental clinics, restaurants, veterinary clinics, and more.",
+    "We build AI voice agents and workflow automations for small businesses — handling calls, scheduling, invoicing, and follow-ups. Done-for-you, in days.",
   openGraph: {
-    title: "Nurturinglabs \u2014 AI Superpower for Local Businesses",
+    title: "Nurturinglabs — AI Superpower for Local Businesses",
     description:
       "An AI brain that understands, speaks, and acts. Never miss a call, a customer, or a dollar.",
     url: "https://nurturinglabs.com",
     type: "website",
-    images: ["/og-image.png"],
   },
 };
 
@@ -47,7 +45,6 @@ export default function RootLayout({
         className={`${spaceGrotesk.variable} ${dmSans.variable} ${ibmPlexMono.variable} antialiased`}
       >
         {children}
-        <Analytics />
       </body>
     </html>
   );
