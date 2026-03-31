@@ -76,20 +76,23 @@ export default function Hero() {
               href={CALENDLY}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 font-body text-accent"
+              className="group inline-flex items-center gap-4 rounded-[14px] px-7 py-3.5 font-body transition-all hover:scale-[1.02]"
               style={{
-                border: "1.5px solid #00FFD1",
-                padding: "clamp(12px, 1.4vh, 16px) clamp(22px, 2.5vw, 32px)",
-                borderRadius: 10,
-                fontSize: "clamp(13px, 1.2vw, 15px)",
-                fontWeight: 600,
-                letterSpacing: "-0.2px",
+                background: "linear-gradient(135deg, #00FFD1, #00FFD1CC)",
+                boxShadow: "0 0 30px #00FFD120, 0 4px 20px rgba(0,0,0,0.3)",
               }}
             >
-              Book free consultation
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="7" y1="17" x2="17" y2="7" />
-                <polyline points="7 7 17 7 17 17" />
+              <span className="flex flex-col items-start">
+                <span className="font-mono text-[9px] font-bold uppercase tracking-[2px]" style={{ color: "#04342C", opacity: 0.6 }}>
+                  Free 30-min call
+                </span>
+                <span className="font-sans text-sm font-bold" style={{ color: "#04342C", letterSpacing: "-0.5px" }}>
+                  Book free consultation
+                </span>
+              </span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#04342C" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
               </svg>
             </a>
           </div>
