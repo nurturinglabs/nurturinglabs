@@ -20,7 +20,7 @@ export default function HowItWorks() {
               i !== 0 ? "border-t border-border sm:border-l sm:border-t-0 lg:border-t-0 sm:pl-6" : ""
             }`}
           >
-            <span className="font-sans text-4xl font-light leading-none" style={{ color: "rgba(255,255,255,0.07)" }}>
+            <span className="font-sans text-4xl font-light leading-none" style={{ color: "rgba(0,255,209,0.25)" }}>
               {step.num}
             </span>
             <h3 className="mt-4 font-sans text-lg font-semibold text-text">{step.heading}</h3>
