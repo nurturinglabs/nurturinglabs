@@ -57,7 +57,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="font-body rounded-[10px] border border-accent px-5 py-2 text-sm font-medium text-accent transition-opacity hover:opacity-80"
           >
-            Book a call
+            Book free consultation
           </a>
         </div>
 
@@ -69,7 +69,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="font-body rounded-[10px] border border-accent px-4 py-2 text-sm font-medium text-accent"
           >
-            Book a call
+            Book free consultation
           </a>
           <button onClick={() => setOpen(!open)} className="text-text" aria-label="Toggle menu">
             <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
