@@ -21,15 +21,15 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nurturinglabs.com"),
-  title: "Nurturinglabs — AI Superpower for Local Businesses",
+  metadataBase: new URL("https://haaglabs.com"),
+  title: "haagLABS — AI Superpower for Local Businesses",
   description:
     "We build AI voice agents and workflow automations for small businesses — handling calls, scheduling, invoicing, and follow-ups. Done-for-you, in days.",
   openGraph: {
-    title: "Nurturinglabs — AI Superpower for Local Businesses",
+    title: "haagLABS — AI Superpower for Local Businesses",
     description:
       "An AI brain that understands, speaks, and acts. Never miss a call, a customer, or a dollar.",
-    url: "https://nurturinglabs.com",
+    url: "https://haaglabs.com",
     type: "website",
   },
 };

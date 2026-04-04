@@ -27,12 +27,12 @@ export default function Nav() {
             }}
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <path d="M6 18V6l12 12V6" stroke="#060608" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M6 6v12M18 6v12M6 12h12" stroke="#060608" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
           <div className="flex flex-col" style={{ lineHeight: 1 }}>
             <span className="font-sans text-text" style={{ fontWeight: 800, fontSize: 15, letterSpacing: "-0.5px" }}>
-              nurturing
+              haag
             </span>
             <span className="font-mono text-accent" style={{ fontWeight: 400, fontSize: 10, letterSpacing: "2px" }}>
               LABS
