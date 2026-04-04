@@ -17,27 +17,22 @@ export default function Nav() {
     <nav className="sticky top-0 z-50 border-b border-border bg-bg">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2.5">
+        <a href="/" className="flex items-center gap-3">
           <div
-            className="flex h-8 w-8 items-center justify-center"
+            className="flex h-10 w-10 items-center justify-center"
             style={{
-              borderRadius: 9,
+              borderRadius: 11,
               background: "linear-gradient(135deg, #00FFD1, #00FFD1CC)",
               boxShadow: "0 0 20px #00FFD115",
             }}
           >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
               <path d="M6 6v12M18 6v12M6 12h12" stroke="#060608" strokeWidth="2.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </div>
-          <div className="flex flex-col" style={{ lineHeight: 1 }}>
-            <span className="font-sans text-text" style={{ fontWeight: 800, fontSize: 15, letterSpacing: "-0.5px" }}>
-              haag
-            </span>
-            <span className="font-mono text-accent" style={{ fontWeight: 400, fontSize: 10, letterSpacing: "2px" }}>
-              LABS
-            </span>
-          </div>
+          <span className="font-sans text-text" style={{ fontWeight: 800, fontSize: 20, letterSpacing: "-0.5px" }}>
+            haag<span className="font-mono text-accent" style={{ fontWeight: 700, fontSize: 20, letterSpacing: "1.5px" }}>LABS</span>
+          </span>
         </a>
 
         {/* Desktop links */}
