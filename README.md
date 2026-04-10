@@ -1,66 +1,50 @@
 # Hey, I'm Umesh 👋
 
-**Building voice AI that works in the real world .**
+**Building Voice AI for the real world — from Milwaukee SMBs to municipal governments.**
 
-I'm a Data Engineer and a voice AI builder. I believe voice is the most natural interface humans have — and most of the world still can't use technology because it demands screens, keyboards, and English.
+I'm a Senior Data Engineer (17 years) turned Voice AI entrepreneur. I founded **[haagLABS](https://haaglabs.com)** — a Voice AI solutions company based in Franklin, WI, building production-grade voice agents for local businesses and local government.
 
-I'm using [ElevenLabs](https://elevenlabs.io) to change that.
+I also run **[Vibe MKE](https://vibe-mke.org)** — Milwaukee's first hands-on AI builder community. Tagline: *Describe it. Build it. Ship it.*
 
----
-
-## 🎙️ Voice AI Demos
-
-Four production-ready voice AI applications — each solving a real problem in India's multilingual market:
-
-### [Ringaa — AI Admission Assistant](https://github.com/nurturinglabs/elevenlabsagent-ringaa)
-> *"Admission season = hundreds of parents calling the same school every day."*
-
-Voice AI that answers parent queries 24/7 in Hindi, English, or Hinglish. Checks seat availability, books campus visits, starts applications — all over a phone call. **Demoed to Orchids International School, Bangalore** — admin team requested expansion to daily operations.
-
-🔧 ElevenLabs · Next.js · Vercel · chrono-node
-
-### [Domino's India — Voice Ordering Demo](https://github.com/nurturinglabs/elevenlabsagent-dominos)
-> *"What if you could order a Cheese Burst Farmhouse in Hinglish — no app, no menu scrolling, just talk?"*
-
-Demo showcasing how a major QSR brand could automate phone ordering with voice AI. Real menu, real pricing, full pizza customization. 4 server tools + 4 client tools with live cart updates.
-
-🔧 ElevenLabs · Next.js · Vercel
-
-### [Meddo — Clinical Documentation Superpower](https://github.com/nurturinglabs/elevenlabsagent-meddo)
-> *"Doctors spend 2 hours a day typing notes. What if they just talked?"*
-
-Voice AI that gives doctors a clinical memory — converts doctor-patient conversations into structured medical records. No more typing, no more missed details.
-
-🔧 ElevenLabs
-
-### [Airtel — Telecom Service Request Demo](https://github.com/nurturinglabs/elevenlabsagent-airtel)
-> *"350M+ subscribers. 22 languages. Thousands of daily calls. One voice AI agent."*
-
-Demo showcasing how India's largest telecom operator could automate customer service. Handles billing, plan changes, and support in Hindi, English, and Hinglish — designed to scale across all Indian languages.
-
-🔧 ElevenLabs
+I believe voice is the most natural interface humans have. Most of the world still can't use technology because it demands screens, keyboards, and English. I'm building toward a world where a phone call is enough.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Voice AI:** ElevenLabs, Conversational AI, WebSockets, Server/Client Tools
+**Voice AI:** Retell AI (custom LLM WebSocket), ElevenLabs (TTS + voice cloning), Claude Sonnet & Opus (Anthropic)
 
-**Frontend:** Next.js, React, TypeScript, Tailwind CSS, Vercel
+**Frontend:** Next.js 14 (App Router), React, TypeScript, Tailwind CSS, shadcn/ui
 
-**Data Engineering:** Python, PySpark, SQL, Snowflake, AWS (S3, EMR, Glue, Athena, Redshift), Databricks
+**Backend & Database:** Supabase (PostgreSQL + Auth + Realtime), REST APIs, WebSocket middleware
 
-**Other:** Docker, R Shiny, Streamlit, Tableau
+**Deployment:** Vercel Pro, GitHub
+
+**Data Engineering:** Python, PySpark, SQL, Snowflake, AWS (S3, EMR, Glue, Athena, Redshift), Databricks, Apache Spark
+
+---
+
+## 🎙️ Community — Vibe MKE
+
+**[Vibe MKE](https://vibe-mke.org)** is Milwaukee's first hands-on AI builder community.
+
+No lectures. No slides. Just building.
+
+Every session, attendees ship something real using AI tools — apps, automations, voice agents, workflows. Open to developers, entrepreneurs, and curious non-coders alike.
+
+*First event: March 26, 2026. Growing fast.*
 
 ---
 
 ## 💡 Why Voice?
 
-A parent in rural Karnataka who can't type in English can call a school and get admission info in Kannada at 2am.
-A customer in Bihar can resolve their Airtel bill in Bhojpuri without pressing 1 for English.
-A doctor can stop typing and just talk to their patient.
+A small business owner in Franklin who misses calls after 6pm loses customers every night.
 
-**Voice doesn't need literacy. Voice doesn't need a smartphone. Voice just needs a phone call.**
+A municipal health department that can't afford a call center skips the survey entirely.
+
+A parent who doesn't speak English can't navigate a school's website — but can make a phone call.
+
+**Voice doesn't need an app. Voice doesn't need literacy. Voice just needs a phone call.**
 
 That's what I'm building toward.
 
@@ -68,5 +52,7 @@ That's what I'm building toward.
 
 ## 📫 Get in Touch
 
+- **Website:** [haaglabs.com](https://haaglabs.com)
+- **Community:** [vibe-mke.org](https://vibe-mke.org)
 - **LinkedIn:** [linkedin.com/in/umeshjn](https://linkedin.com/in/umeshjn)
 - **Email:** u.jnms08@gmail.com
